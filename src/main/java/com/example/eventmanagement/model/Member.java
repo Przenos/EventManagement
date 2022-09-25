@@ -3,13 +3,13 @@ package com.example.eventmanagement.model;
 public class Member {
 private String login;
 private String password;
-private String Nick;
+private String nick;
 private String mail;
 
     public Member(String login, String password, String nick, String mail) {
         this.login = login;
         this.password = password;
-        Nick = nick;
+        this.nick = nick;
         this.mail = mail;
     }
 
@@ -30,11 +30,11 @@ private String mail;
     }
 
     public String getNick() {
-        return Nick;
+        return nick;
     }
 
     public void setNick(String nick) {
-        Nick = nick;
+        this.nick = nick;
     }
 
     public String getMail() {
