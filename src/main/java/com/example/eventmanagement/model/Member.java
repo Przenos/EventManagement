@@ -13,6 +13,10 @@ private String mail;
         this.mail = mail;
     }
 
+    public Member() {
+
+    }
+
     public String getLogin() {
         return login;
     }
