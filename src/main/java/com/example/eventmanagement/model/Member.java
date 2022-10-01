@@ -3,13 +3,13 @@ package com.example.eventmanagement.model;
 public class Member {
 private String login;
 private String password;
-private String nick;
+private String name;
 private String mail;
 
-    public Member(String login, String password, String nick, String mail) {
+    public Member(String login, String password, String name, String mail) {
         this.login = login;
         this.password = password;
-        this.nick = nick;
+        this.name = name;
         this.mail = mail;
     }
 
@@ -29,12 +29,12 @@ private String mail;
         this.password = password;
     }
 
-    public String getNick() {
-        return nick;
+    public String getName() {
+        return name;
     }
 
-    public void setNick(String nick) {
-        this.nick = nick;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getMail() {
